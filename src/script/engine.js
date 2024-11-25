@@ -12,7 +12,7 @@ let openCards = [];
 
 let shuffleEmojis = emojis.sort(() => (Math.random() > 0.5 ? 2 : -1))
 let timerelement = document.querySelector (".timer")
-let tempo = 35
+let tempo = 30
 
 for(let i=0; i < emojis.length; i++){
     let box = document.createElement ("div");
