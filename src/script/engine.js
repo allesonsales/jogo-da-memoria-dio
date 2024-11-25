@@ -45,7 +45,7 @@ function checkMatch() {
     openCards = [];
 
     if (document.querySelectorAll(".boxMatch").length === emojis.length) {
-        alert ("Parabéns, Você venceu!")
+        alert ("Parabéns, Você venceu! paga um salgado no tiu")
     }
 }
 
@@ -60,6 +60,6 @@ const interval = setInterval (() => {
 
 
     function zerado () {
-        alert ("Seu tempo acabou!")
+        alert ("Seu tempo acabou! Paga um salgado no tiu")
     } 
     
